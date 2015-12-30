@@ -6,8 +6,8 @@
 // to create separate JavaScript files as needed.
 //
 //= require jquery
-//= require bootstrap.min
 //= require_self
+//= require bootstrap.min
 
 if (typeof jQuery !== 'undefined') {
 	(function($) {
