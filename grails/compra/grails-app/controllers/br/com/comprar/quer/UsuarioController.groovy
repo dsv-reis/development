@@ -35,7 +35,7 @@ class UsuarioController {
                 return
             }
 
-            
+
             params.de_senha = gerarSenha()
 
             usuario = new Usuario(params)
